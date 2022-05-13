@@ -1,1 +1,1 @@
-echo 'welcome to Fast-Nock[Linux Edtion]';
+echo 'welcome to Fast-Nock[Windows Edtion]';

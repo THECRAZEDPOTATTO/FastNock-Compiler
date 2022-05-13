@@ -12,5 +12,5 @@ case $filetype in
   ruby|rs|gem|gemfile|rb) ocra $filename.rb;;
   ps1|ps|powershell|.ps1) echo linux does not support powershell or Batch ;; 
   bat|batch|.bat) echo linux does not support powershell or Batch ;; 
-  *) echo FILE ERROR ;; 
+  *) echo FILE NOT SUPPORT TRY WINDOWS EDTION ;; 
 esac

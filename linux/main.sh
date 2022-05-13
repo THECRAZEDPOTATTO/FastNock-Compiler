@@ -14,3 +14,16 @@ case $filetype in
   bat|batch|.bat) echo linux does not support powershell or Batch ;; 
   *) echo FILE NOT SUPPORT TRY WINDOWS EDTION ;; 
 esac
+echo done 
+echo Clearing terminal in:
+for i in {10..01}
+do
+tput cup 10 $l
+echo -n "$i"
+sleep 1
+done
+echo
+echo clearing...
+sleep 2
+clear
+
